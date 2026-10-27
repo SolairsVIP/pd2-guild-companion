@@ -1,0 +1,10 @@
+{
+  "name": "pd2-guild-companion",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "description": "PD2 S14 公会协作助手",
+  "engines": { "node": ">=24.0.0" },
+  "scripts": { "start": "node server.js", "demo": "node demo.js", "test": "node --test" }
+}

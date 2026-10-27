@@ -1,0 +1,15 @@
+data/
+*.sqlite*
+*.db
+*.db-*
+.env
+.env.*
+node_modules/
+test-results/
+output/
+dist/
+*.log
+*.pem
+*.key
+.DS_Store
+Thumbs.db
