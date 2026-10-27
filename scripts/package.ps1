@@ -12,7 +12,7 @@ if (Test-Path -LiteralPath $archivePath) {
 $entries = @(
     '.gitattributes', '.gitignore', '.dockerignore',
     'package.json', 'README.md', 'LICENSE', 'CHANGELOG.md', 'CONTRIBUTING.md', 'DESIGN.md',
-    'Dockerfile', 'server.js', 'armory.js', 'demo.js', 'public', 'test', 'scripts'
+    'Dockerfile', 'server.js', 'armory.js', 'demo.js', 'public', 'test', 'scripts', 'docs'
 )
 Add-Type -AssemblyName System.IO.Compression
 Add-Type -AssemblyName System.IO.Compression.FileSystem
